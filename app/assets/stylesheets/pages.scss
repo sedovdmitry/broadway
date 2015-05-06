@@ -109,7 +109,7 @@ html, body {
 }
 
 .clearfix {
-  clear: both
+  clear: both;
 }
 
 .footer {
@@ -391,7 +391,46 @@ html, body {
   .col-md-offset-0 {
     margin-left: auto
   }
-
-
 }
 
+/*
+.container:before {
+  content:" ";
+  display:table;
+  clear:both
+}
+
+.clearfix:before {
+  content:" ";
+  display:table;
+  clear:both
+}
+
+.container-fluid:before {
+  content:" ";
+  display:table;
+  clear:both
+}
+
+.row:before {
+  content:" ";
+  display:table;
+  clear:both
+}
+
+.clearfix:after, .container:after, container-fluid:after, .row:after {
+  clear: both
+}
+*/
+
+.clearfix:before, .clearfix:after,
+.container:before, .container:after,
+.container-fluid:before, .container-fluid:after,
+.row:before, .row:after {
+  content: " ";
+  display: table
+}
+
+.clearfix:after, .container:after, .container-fluid:after, .row:after {
+  clear: both
+}
