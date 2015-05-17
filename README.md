@@ -1,2 +1,2 @@
 # broadway
-[demo landing page]('https://webstudiorails.herokuapp.com', 'demo')
+[demo landing page](https://webstudiorails.herokuapp.com "demo")
