@@ -4,10 +4,6 @@ Rails app landing page.
 
 ---
 
-[demo landing page](https://webstudiorails.herokuapp.com "demo")
-
----
-
 in reality three images in middle have normal view. This is trouble screenshot script.
 
 ![screenshot](https://github.com/sedovdmitry/broadway/blob/master/app/assets/images/screenshot.jpg "screenshot app")
